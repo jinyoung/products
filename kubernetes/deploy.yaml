@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: product
-          image: jinyoung/12st-product:${BUILD_NUMBER}
+          image: jinyoung/products:${BUILD_NUMBER}
           ports:
             - containerPort: 8080
